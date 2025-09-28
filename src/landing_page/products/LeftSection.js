@@ -34,14 +34,14 @@ function LeftSection({
           <div className="d-flex align-items-center gap-3">
             <a href={googlePlay}>
               <img
-                src="media/images/googlePlayBadge.svg"
+                src="/media/images/googlePlayBadge.svg"
                 alt="Get it on Google Play"
                 style={{ height: "40px" }}
               />
             </a>
             <a href={appStore}>
               <img
-                src="media/images/appstoreBadge.svg"
+                src="/media/images/appstoreBadge.svg"
                 alt="Download on App Store"
                 style={{ height: "40px" }}
               />
@@ -54,3 +54,4 @@ function LeftSection({
 }
 
 export default LeftSection;
+
