@@ -6,8 +6,9 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg border-bottom" style={{ backgroundColor: "#fff" }}>
       <div className="container p-2">
         <Link className="navbar-brand" to="/">
-          <img src="media/images/logo.svg" alt="Logo" style={{ width: "25%" }} />
+          <img src="/media/images/logo.svg" alt="Logo" style={{ width: "25%" }} />
         </Link>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -19,6 +20,7 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <form className="d-flex" role="search">
             <ul className="navbar-nav mb-lg-0">
@@ -46,3 +48,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
