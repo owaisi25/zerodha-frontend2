@@ -23,7 +23,7 @@ function Education() {
                 {/* Left Side: Image */}
                 <div className="col-md-6 text-center">
                     <img
-                        src="media/images/education.svg"
+                        src="/media/images/education.svg"
                         alt="Varsity Illustration"
                         style={imageStyle}
                     />
@@ -37,7 +37,7 @@ function Education() {
                         covering everything from the basics to advanced trading.
                     </p>
                     <a href="#" style={linkStyle}>
-                        Versity &rarr;
+                        Varsity &rarr;
                     </a>
 
                     <p>
@@ -54,3 +54,4 @@ function Education() {
 }
 
 export default Education;
+
